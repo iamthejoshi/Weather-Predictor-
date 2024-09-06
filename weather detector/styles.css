@@ -1,0 +1,51 @@
+/* Body styling for full-page background image */
+body {
+    font-family: Arial, sans-serif;
+    background: url('background\ image.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center the container with a semi-transparent background */
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    max-width: 90%; /* Ensures responsiveness on smaller screens */
+}
+
+/* Style the logo */
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Style input and button */
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 22px); /* Adjust width for padding */
+}
+
+button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+/* Style for weather result output */
+#weatherResult {
+    margin-top: 20px;
+}
